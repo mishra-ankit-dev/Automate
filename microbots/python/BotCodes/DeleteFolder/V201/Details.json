@@ -1,7 +1,7 @@
 {
     "Name": "DeleteFolder",
     "Technology": "Python",
-    "Description": "Deletes a given folder",
+    "Description": "Deletes a given folder.",
     "Version": "2.0.1",
     "Category": "FOLDER",
     "Inputs": [
