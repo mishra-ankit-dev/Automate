@@ -1,0 +1,42 @@
+{
+    "Name": "test",
+    "Description": "zvsdv",
+    "Category": "TEMP",
+    "Version": "1.0.0",
+    "Inputs": [
+        {
+            "Name": "aaa",
+            "Type": "a",
+            "DefaultValue": "a",
+            "Description": "a"
+        }
+    ],
+    "Outputs": [
+        {
+            "Name": "a",
+            "Type": "a",
+            "Description": "a"
+        }
+    ],
+    "Dependencies": [
+        {
+            "Name": "a",
+            "Type": "a",
+            "Description": "a"
+        }
+    ],
+    "Authors": [
+        {
+            "Name": "a",
+            "Email": "a",
+            "Contact": "a"
+        }
+    ],
+    "Errors": [
+        {
+            "Message": "a",
+            "Code": "a",
+            "Description": "a"
+        }
+    ]
+}
