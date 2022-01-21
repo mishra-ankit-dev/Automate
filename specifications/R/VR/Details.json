@@ -1,0 +1,18 @@
+{
+    "Name": "R",
+    "Description": "R",
+    "Category": "R",
+    "Version": "R",
+    "Inputs": [
+        {
+            "Name": "R",
+            "Type": "R",
+            "DefaultValue": "R",
+            "Description": "R"
+        }
+    ],
+    "Outputs": [],
+    "Dependencies": [],
+    "Authors": [],
+    "Errors": []
+}
