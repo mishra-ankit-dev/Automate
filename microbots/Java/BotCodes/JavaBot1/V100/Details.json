@@ -1,21 +1,21 @@
 {
-    "Name": "DeleteFile",
+    "Name": "DeleteFolder",
     "Technology": "Java",
     "Description": "J",
     "Version": "1.0.0",
-    "Category": "FILE",
+    "Category": "FOLDER",
     "Inputs": [
         {
-            "Name": "folderPath",
+            "Name": "parentFolderPath",
             "Type": "string",
             "DefaultValue": "None",
-            "Description": "Folder path from where a file has to be deleted"
+            "Description": "Parent Folder path from where a folder has to be deleted"
         },
         {
-            "Name": "fileName",
+            "Name": "folderToBeDeleted",
             "Type": "string",
             "DefaultValue": "None",
-            "Description": "Name of file to be deleted"
+            "Description": "Name of folder to be deleted"
         }
     ],
     "Outputs": [
@@ -41,13 +41,8 @@
     ],
     "Errors": [
         {
-            "Message": "FILE_NOT_FOUND",
-            "Code": "1000000000",
-            "Description": "File not found"
-        },
-        {
             "Message": "FOLDER_NOT_FOUND",
-            "Code": "1000000001",
+            "Code": "1000000000",
             "Description": "Folder not found"
         }
     ]
