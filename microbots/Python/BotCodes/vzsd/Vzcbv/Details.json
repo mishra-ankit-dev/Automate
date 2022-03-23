@@ -1,0 +1,49 @@
+{
+    "Name": "a",
+    "Technology": "Python",
+    "Description": "dvzs",
+    "Version": "zcbv",
+    "Category": "a",
+    "Inputs": [
+        {
+            "Name": "a8",
+            "Type": "a",
+            "DefaultValue": "a",
+            "Description": "a"
+        },
+        {
+            "Name": "a9",
+            "Type": "a",
+            "DefaultValue": "a",
+            "Description": "a"
+        }
+    ],
+    "Outputs": [
+        {
+            "Name": "a",
+            "Type": "a",
+            "Description": "a"
+        }
+    ],
+    "Dependencies": [
+        {
+            "Name": "a",
+            "Type": "a",
+            "Description": "a"
+        }
+    ],
+    "Authors": [
+        {
+            "Name": "a",
+            "Email": "a",
+            "Contact": "a"
+        }
+    ],
+    "Errors": [
+        {
+            "Message": "a",
+            "Code": "a",
+            "Description": "a"
+        }
+    ]
+}
