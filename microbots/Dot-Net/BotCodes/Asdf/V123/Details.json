@@ -1,21 +1,21 @@
 {
-    "Name": "DeleteFolder",
+    "Name": "DeleteFile",
     "Technology": "Dot-Net",
     "Description": "Test",
     "Version": "1.2.3",
-    "Category": "FOLDER",
+    "Category": "FILE",
     "Inputs": [
         {
-            "Name": "parentFolderPath",
+            "Name": "folderPath",
             "Type": "string",
             "DefaultValue": "None",
-            "Description": "Parent Folder path from where a folder has to be deleted"
+            "Description": "Folder path from where a file has to be deleted"
         },
         {
-            "Name": "folderToBeDeleted",
+            "Name": "fileName",
             "Type": "string",
             "DefaultValue": "None",
-            "Description": "Name of folder to be deleted"
+            "Description": "Name of file to be deleted"
         }
     ],
     "Outputs": [
@@ -41,8 +41,13 @@
     ],
     "Errors": [
         {
-            "Message": "FOLDER_NOT_FOUND",
+            "Message": "FILE_NOT_FOUND",
             "Code": "1000000000",
+            "Description": "File not found"
+        },
+        {
+            "Message": "FOLDER_NOT_FOUND",
+            "Code": "1000000001",
             "Description": "Folder not found"
         }
     ]
