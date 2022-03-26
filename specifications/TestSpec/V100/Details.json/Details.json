@@ -1,7 +1,7 @@
 {
     "Name": "TestSpec",
     "Description": "Test",
-    "Category": "Test",
+    "Category": "Test1",
     "Version": "1.0.0",
     "Inputs": [
         {
