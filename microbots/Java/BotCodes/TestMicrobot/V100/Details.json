@@ -1,54 +1,25 @@
 {
-    "Name": "DeleteFile",
+    "Name": "r",
     "Technology": "Java",
-    "Description": "test",
+    "Description": "test2",
     "Version": "1.0.0",
-    "Category": "FILE",
+    "Category": "t",
     "Inputs": [
         {
-            "Name": "folderPath",
-            "Type": "string",
-            "DefaultValue": "None",
-            "Description": "Folder path from where a file has to be deleted"
-        },
-        {
-            "Name": "fileName",
-            "Type": "string",
-            "DefaultValue": "None",
-            "Description": "Name of file to be deleted"
+            "Name": "Date",
+            "Type": "String",
+            "DefaultValue": "12",
+            "Description": "gfhhmn"
         }
     ],
     "Outputs": [
         {
-            "Name": "deletionStatus",
-            "Type": "boolean",
-            "Description": "Status if the file is deleted or not"
+            "Name": "Date",
+            "Type": "String",
+            "Description": "ghjjh"
         }
     ],
-    "Dependencies": [
-        {
-            "Name": "os",
-            "Type": "module",
-            "Description": "For interaction with System directories"
-        }
-    ],
-    "Authors": [
-        {
-            "Name": "Ankit Mishra",
-            "Email": "ankit.mishra@robofi.com",
-            "Contact": "+919816777240"
-        }
-    ],
-    "Errors": [
-        {
-            "Message": "FILE_NOT_FOUND",
-            "Code": "1000000000",
-            "Description": "File not found"
-        },
-        {
-            "Message": "FOLDER_NOT_FOUND",
-            "Code": "1000000001",
-            "Description": "Folder not found"
-        }
-    ]
+    "Dependencies": [],
+    "Authors": [],
+    "Errors": []
 }
