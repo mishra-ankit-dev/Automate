@@ -1,0 +1,19 @@
+{
+    "Name": "testSpec2",
+    "Technology": "Java",
+    "Description": "q",
+    "Version": "1.2.3",
+    "Category": "a",
+    "Inputs": [
+        {
+            "Name": "a",
+            "Type": "a",
+            "DefaultValue": "a",
+            "Description": "a"
+        }
+    ],
+    "Outputs": [],
+    "Dependencies": [],
+    "Authors": [],
+    "Errors": []
+}
