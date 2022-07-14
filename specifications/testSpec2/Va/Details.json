@@ -1,0 +1,18 @@
+{
+    "Name": "testSpec2",
+    "Description": "a",
+    "Category": "a",
+    "Version": "a",
+    "Inputs": [
+        {
+            "Name": "a",
+            "Type": "a",
+            "DefaultValue": "a",
+            "Description": "a"
+        }
+    ],
+    "Outputs": [],
+    "Dependencies": [],
+    "Authors": [],
+    "Errors": []
+}
