@@ -1,0 +1,24 @@
+{
+    "Name": "a",
+    "Description": "asdf",
+    "Category": "File",
+    "Version": "1.2.3",
+    "Inputs": [
+        {
+            "Name": "a",
+            "Type": "a",
+            "DefaultValue": "a",
+            "Description": "a"
+        }
+    ],
+    "Outputs": [
+        {
+            "Name": "a",
+            "Type": "a",
+            "Description": "a"
+        }
+    ],
+    "Dependencies": [],
+    "Authors": [],
+    "Errors": []
+}
