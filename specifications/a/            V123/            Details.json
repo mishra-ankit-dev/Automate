@@ -1,0 +1,18 @@
+{
+    "name": "a",
+    "description": "ScS",
+    "category": 1,
+    "version": "1.2.3",
+    "inputs": [
+        {
+            "name": "i",
+            "type": "i",
+            "default_value": "i",
+            "description": "i"
+        }
+    ],
+    "outputs": [],
+    "dependencies": [],
+    "authors": [],
+    "errors": []
+}
