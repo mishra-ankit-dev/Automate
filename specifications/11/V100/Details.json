@@ -5,7 +5,14 @@
     "description": "qw",
     "category": 1,
     "version": "1.0.0",
-    "inputs": [],
+    "inputs": {
+        "added_by": null,
+        "modified_by": null,
+        "name": "12",
+        "type": "12",
+        "default_value": "12",
+        "description": "12"
+    },
     "outputs": [],
     "dependencies": [],
     "authors": [],
