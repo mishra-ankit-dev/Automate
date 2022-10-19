@@ -2,7 +2,7 @@
     "added_by": 1,
     "modified_by": 1,
     "name": "DeleteFolderTest",
-    "description": "Deletes Folder",
+    "description": "Deletes Folder.",
     "category": 1,
     "version": "1.0.0",
     "inputs": [],
