@@ -5,9 +5,40 @@
     "description": "Creates folder with name as current time stamp",
     "category": 1,
     "version": "1.0.0",
-    "inputs": [],
-    "outputs": [],
-    "dependencies": [],
-    "authors": [],
-    "errors": []
+    "inputs": {
+        "added_by": null,
+        "modified_by": null,
+        "name": "parentFolder",
+        "type": "string",
+        "default_value": "NA",
+        "description": "Parent folder path where new folder needs to be created"
+    },
+    "outputs": {
+        "added_by": null,
+        "modified_by": null,
+        "name": "status",
+        "type": "string",
+        "description": "Process status execution"
+    },
+    "dependencies": {
+        "added_by": null,
+        "modified_by": null,
+        "name": "os",
+        "type": "module",
+        "description": "Library to interact with system OS"
+    },
+    "authors": {
+        "added_by": null,
+        "modified_by": null,
+        "name": "Ankit Mishra",
+        "email": "amishm766@gmail.com",
+        "phone": "9713490290"
+    },
+    "errors": {
+        "added_by": null,
+        "modified_by": null,
+        "message": "FOLDER_NOT_FOUND",
+        "code": "0000000001",
+        "description": "Folder not found"
+    }
 }
