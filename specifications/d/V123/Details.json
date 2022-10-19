@@ -1,0 +1,16 @@
+{
+    "added_by": 1,
+    "modified_by": 1,
+    "name": "d",
+    "description": "d",
+    "category": 1,
+    "version": "1.2.3",
+    "inputs": {
+        "added_by": 1,
+        "modified_by": 1,
+        "name": "2",
+        "type": "2",
+        "default_value": "2",
+        "description": "2"
+    }
+}
