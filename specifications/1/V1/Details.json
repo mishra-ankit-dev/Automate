@@ -1,0 +1,31 @@
+{
+    "name": "1",
+    "description": "1",
+    "category": 1,
+    "version": "1",
+    "inputs": [
+        {
+            "name": "1",
+            "type": "1",
+            "default_value": "1",
+            "description": "1"
+        },
+        {
+            "name": "1",
+            "type": "1",
+            "default_value": "1",
+            "description": "1"
+        }
+    ],
+    "outputs": [
+        {
+            "name": "1",
+            "type": "1",
+            "description": "1"
+        }
+    ],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
+    "added_by": 1
+}
