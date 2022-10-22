@@ -1,0 +1,37 @@
+{
+    "id": 79,
+    "name": "1",
+    "description": "asdf",
+    "category": 1,
+    "version": "1.0.0",
+    "inputs": [
+        {
+            "name": "i1",
+            "type": "i1",
+            "default_value": "i1",
+            "description": "i1"
+        },
+        {
+            "name": "i2",
+            "type": "i2",
+            "default_value": "i2",
+            "description": "i2"
+        }
+    ],
+    "outputs": [
+        {
+            "name": "o1",
+            "type": "o1",
+            "description": "o1"
+        },
+        {
+            "name": "o2",
+            "type": "o2",
+            "description": "o2"
+        }
+    ],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
+    "added_by": 1
+}
