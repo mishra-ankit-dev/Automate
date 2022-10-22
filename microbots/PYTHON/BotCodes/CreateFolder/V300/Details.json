@@ -1,14 +1,9 @@
 {
     "name": "CreateFolder",
-    "technology": {
-        "id": 1,
-        "name": "PYTHON"
-    },
-    "description": "De",
+    "description": "Deletes",
     "version": "3.0.0",
     "developers": [],
     "added_by": 1,
-    "id": 1,
     "category": 1,
     "inputs": [
         {
@@ -56,5 +51,9 @@
             "code": "1100000001",
             "description": "Parent folder not found"
         }
-    ]
+    ],
+    "technology": {
+        "id": 1,
+        "name": "PYTHON"
+    }
 }
