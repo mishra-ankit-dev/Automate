@@ -1,0 +1,20 @@
+{
+    "id": 71,
+    "name": "1",
+    "description": "1",
+    "category": 1,
+    "version": "1.0.2",
+    "inputs": [
+        {
+            "name": "1",
+            "type": "1",
+            "default_value": "1",
+            "description": "1"
+        }
+    ],
+    "outputs": [],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
+    "added_by": 1
+}
