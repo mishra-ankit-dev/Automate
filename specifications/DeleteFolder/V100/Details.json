@@ -1,4 +1,5 @@
 {
+    "id": 4,
     "name": "DeleteFolder",
     "description": "Deletes a folder",
     "category": 1,
@@ -26,5 +27,6 @@
     ],
     "dependencies": [],
     "authors": [],
-    "errors": []
+    "errors": [],
+    "added_by": 1
 }
