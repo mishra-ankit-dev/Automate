@@ -10,9 +10,25 @@
             "type": "string",
             "default_value": "NA",
             "description": "Parent folder path to get list from"
+        },
+        {
+            "name": "parentFolder",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Parent folder path to get list from"
         }
     ],
     "outputs": [
+        {
+            "name": "status",
+            "type": "string",
+            "description": "Process execution status"
+        },
+        {
+            "name": "listOfFolders",
+            "type": "list",
+            "description": "List of  folders present in parent folder"
+        },
         {
             "name": "status",
             "type": "string",
@@ -26,6 +42,11 @@
     ],
     "dependencies": [],
     "authors": [
+        {
+            "name": "Ankit Mishra",
+            "email": "amishm766@robofi.com",
+            "phone": "9713490290"
+        },
         {
             "name": "Ankit Mishra",
             "email": "amishm766@robofi.com",
