@@ -7,13 +7,13 @@
         {
             "name": "parentFolderPath",
             "type": "string",
-            "defaultValue": "None",
+            "default_value": "None",
             "description": "Parent Folder path from where a folder has to be deleted"
         },
         {
             "name": "folderToBeDeleted",
             "type": "string",
-            "defaultValue": "None",
+            "default_value": "None",
             "description": "Name of folder to be deleted"
         }
     ],
