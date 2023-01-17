@@ -1,0 +1,49 @@
+{
+    "id": 1,
+    "name": "DeleteFolder",
+    "description": "Deletes a folder from a given directory",
+    "category": 2,
+    "version": "1.0.0",
+    "inputs": [
+        {
+            "name": "folderTobeDeleted",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Name of the folder which is to be deleted."
+        },
+        {
+            "name": "parentFolderPath",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Source folder path from where folder has to be deleted"
+        }
+    ],
+    "outputs": [
+        {
+            "name": "deletedFolderPath",
+            "type": "string",
+            "description": "Path of the folder which has been deleted"
+        },
+        {
+            "name": "status",
+            "type": "string",
+            "description": "Status of the process execution"
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "os",
+            "type": "module",
+            "description": "package which interacts with System OS"
+        }
+    ],
+    "authors": [],
+    "errors": [
+        {
+            "message": "FOLDER_NOT_FOUND",
+            "code": "X100000000",
+            "description": "Folder was not found"
+        }
+    ],
+    "added_by": 1
+}
