@@ -1,0 +1,32 @@
+{
+    "id": 2,
+    "name": "DeleteFile",
+    "description": "Deletes a file from a given folder",
+    "category": 1,
+    "version": "1.0.0",
+    "inputs": [
+        {
+            "name": "fileNameToBeDeleted",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Name of the file to be deleted"
+        },
+        {
+            "name": "folderPath",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Path of the folder from where to delete a file"
+        }
+    ],
+    "outputs": [
+        {
+            "name": "status",
+            "type": "string",
+            "description": "Status of the process execution"
+        }
+    ],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
+    "added_by": 1
+}
