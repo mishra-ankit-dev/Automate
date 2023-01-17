@@ -8,13 +8,13 @@
         {
             "name": "parentFolder",
             "type": "string",
-            "default_value": "NA",
+            "defaultValue": "NA",
             "description": "Parent folder path to get list from"
         },
         {
             "name": "parentFolder",
             "type": "string",
-            "default_value": "NA",
+            "defaultValue": "NA",
             "description": "Parent folder path to get list from"
         }
     ],
