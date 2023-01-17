@@ -1,48 +1,48 @@
 {
-    "Name": "DeleteFolder",
-    "Description": "Deletes a folder from a parent folder",
-    "Category": "FOLDER",
-    "Version": "1.0.1",
-    "Inputs": [
+    "name": "DeleteFolder",
+    "description": "Deletes a folder from a parent folder",
+    "category": 1,
+    "version": "1.0.1",
+    "inputs": [
         {
-            "Name": "parentFolderPath",
-            "Type": "string",
-            "DefaultValue": "None",
-            "Description": "Parent Folder path from where a folder has to be deleted"
+            "name": "parentFolderPath",
+            "type": "string",
+            "defaultValue": "None",
+            "description": "Parent Folder path from where a folder has to be deleted"
         },
         {
-            "Name": "folderToBeDeleted",
-            "Type": "string",
-            "DefaultValue": "None",
-            "Description": "Name of folder to be deleted"
+            "name": "folderToBeDeleted",
+            "type": "string",
+            "defaultValue": "None",
+            "description": "Name of folder to be deleted"
         }
     ],
-    "Outputs": [
+    "outputs": [
         {
-            "Name": "deletionStatus",
-            "Type": "boolean",
-            "Description": "Status if the file is deleted or not"
+            "name": "deletionStatus",
+            "type": "boolean",
+            "description": "Status if the file is deleted or not"
         }
     ],
-    "Dependencies": [
+    "dependencies": [
         {
-            "Name": "os",
-            "Type": "module",
-            "Description": "For interaction with System directories"
+            "name": "os",
+            "type": "module",
+            "description": "For interaction with System directories"
         }
     ],
-    "Authors": [
+    "authors": [
         {
-            "Name": "Ankit Mishra",
-            "Email": "ankit.mishra@robofi.com",
-            "Contact": "+919816777240"
+            "name": "Ankit Mishra",
+            "email": "ankit.mishra@robofi.com",
+            "contact": "+919816777240"
         }
     ],
-    "Errors": [
+    "errors": [
         {
-            "Message": "FOLDER_NOT_FOUND",
-            "Code": "1000000000",
-            "Description": "Folder not found"
+            "message": "FOLDER_NOT_FOUND",
+            "code": "1000000000",
+            "description": "Folder not found"
         }
     ]
 }
