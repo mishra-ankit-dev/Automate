@@ -2,6 +2,7 @@
     "name": "DeleteFolder",
     "description": "Deletes folder from a given directory.",
     "version": "1.0.0",
+    "developers": [],
     "added_by": 1,
     "technology": "python",
     "category": 2,
