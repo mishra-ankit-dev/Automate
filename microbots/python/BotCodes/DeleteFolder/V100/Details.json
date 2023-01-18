@@ -32,7 +32,7 @@
             "description": "For interaction with System directories"
         }
     ],
-    "authors": [
+    "developers": [
         {
             "name": "Ankit Mishra",
             "email": "ankit.mishra@robofi.com",
