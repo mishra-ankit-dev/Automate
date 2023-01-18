@@ -1,0 +1,50 @@
+{
+    "name": "ReadPDF",
+    "description": "Reads PDF file",
+    "version": "1.0.0",
+    "developers": [],
+    "added_by": 1,
+    "unique_full_name": "ReadPDF__V1_0_0",
+    "technology": "python",
+    "category": 3,
+    "inputs": [
+        {
+            "name": "folderPath",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Path of the folder where PDF file is present"
+        },
+        {
+            "name": "pdfFileName",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Name of the PDF file"
+        }
+    ],
+    "outputs": [
+        {
+            "name": "content",
+            "type": "string",
+            "description": "Content of the PDF file"
+        },
+        {
+            "name": "status",
+            "type": "string",
+            "description": "Status of the process execution"
+        }
+    ],
+    "dependencies": [],
+    "authors": [],
+    "errors": [
+        {
+            "message": "FOLDER_NOT_FOUND",
+            "code": "X10000000000",
+            "description": "Folder path does not exist"
+        },
+        {
+            "message": "FILE_NOT_FOUND",
+            "code": "X1000000001",
+            "description": "PDF file does not exist"
+        }
+    ]
+}
