@@ -1,54 +1,54 @@
 {
-    "Name": "DeleteFile",
-    "Technology": "Python",
-    "Description": "Deletes a file from a given folder.",
-    "Version": "1.0.0",
-    "Category": "FILE",
-    "Inputs": [
+    "name": "DeleteFile",
+    "technology": "Python",
+    "description": "Deletes a file from a given folder.",
+    "version": "1.0.0",
+    "inputs": [
         {
-            "Name": "folderPath",
-            "Type": "string",
-            "DefaultValue": "None",
-            "Description": "Folder path from where a file has to be deleted"
+            "name": "folderPath",
+            "type": "string",
+            "default_value": "None",
+            "description": "Folder path from where a file has to be deleted"
         },
         {
-            "Name": "fileName",
-            "Type": "string",
-            "DefaultValue": "None",
-            "Description": "Name of file to be deleted"
+            "name": "filename",
+            "type": "string",
+            "default_value": "None",
+            "description": "name of file to be deleted"
         }
     ],
-    "Outputs": [
+    "outputs": [
         {
-            "Name": "deletionStatus",
-            "Type": "boolean",
-            "Description": "Status if the file is deleted or not"
+            "name": "deletionStatus",
+            "type": "boolean",
+            "description": "Status if the file is deleted or not"
         }
     ],
-    "Dependencies": [
+    "dependencies": [
         {
-            "Name": "os",
-            "Type": "module",
-            "Description": "For interaction with System directories"
+            "name": "os",
+            "type": "module",
+            "description": "For interaction with System directories"
         }
     ],
-    "Authors": [
+    "authors": [
         {
-            "Name": "Ankit Mishra",
-            "Email": "ankit.mishra@robofi.com",
-            "Contact": "+919816777240"
+            "name": "Ankit Mishra",
+            "email": "ankit.mishra@robofi.com",
+            "phone": "+919816777240"
         }
     ],
-    "Errors": [
+    "errors": [
         {
-            "Message": "FILE_NOT_FOUND",
-            "Code": "1000000000",
-            "Description": "File not found"
+            "message": "FILE_NOT_FOUND",
+            "code": "1000000000",
+            "description": "File not found"
         },
         {
-            "Message": "FOLDER_NOT_FOUND",
-            "Code": "1000000001",
-            "Description": "Folder not found"
+            "message": "FOLDER_NOT_FOUND",
+            "code": "1000000001",
+            "description": "Folder not found"
         }
-    ]
+    ],
+    "added_by": 1
 }
