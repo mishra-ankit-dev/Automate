@@ -3,6 +3,7 @@
     "technology": "Python",
     "description": "Deletes a file from a given folder.",
     "version": "1.0.0",
+    "unique_full_name": "DeleteFile__V_1_0_0",
     "inputs": [
         {
             "name": "folderPath",
