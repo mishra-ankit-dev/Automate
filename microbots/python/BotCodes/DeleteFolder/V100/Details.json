@@ -6,6 +6,7 @@
     "added_by": 1,
     "technology": "python",
     "category": 2,
+    "unique_full_name": "DeleteFolder__V_1_0_0",
     "inputs": [
         {
             "name": "sourceFolderPath",
