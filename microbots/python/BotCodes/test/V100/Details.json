@@ -1,0 +1,25 @@
+{
+    "name": "test",
+    "technology": {
+        "id": 1,
+        "name": "python"
+    },
+    "description": "csdcs",
+    "version": "1.0.0",
+    "developers": [],
+    "added_by": 1,
+    "unique_full_name": "ascdc__V1_0_0",
+    "category": 1,
+    "inputs": [
+        {
+            "name": "dc",
+            "type": "sdcd",
+            "default_value": "cds",
+            "description": "sd"
+        }
+    ],
+    "outputs": [],
+    "dependencies": [],
+    "authors": [],
+    "errors": []
+}
