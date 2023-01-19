@@ -1,0 +1,20 @@
+{
+    "id": 37,
+    "name": "tests",
+    "description": "sasca",
+    "category": 1,
+    "version": "1.0.0",
+    "inputs": [
+        {
+            "name": "xsca",
+            "type": "scasc",
+            "default_value": "casc",
+            "description": "csacas"
+        }
+    ],
+    "outputs": [],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
+    "added_by": 1
+}
