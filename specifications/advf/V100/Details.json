@@ -1,0 +1,20 @@
+{
+    "id": 15,
+    "name": "advf",
+    "description": "sacac",
+    "category": 1,
+    "version": "1.0.0",
+    "inputs": [
+        {
+            "name": "a",
+            "type": "a",
+            "default_value": "a",
+            "description": "a"
+        }
+    ],
+    "outputs": [],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
+    "added_by": 1
+}
