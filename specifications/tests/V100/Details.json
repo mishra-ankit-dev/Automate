@@ -1,8 +1,19 @@
-"{\n    \"id\": 37,\n    \"name\": \"tests\",\n    \"description\": \"sasca\",\n \
-  \   \"category\": 1,\n    \"version\": \"1.0.0\",\n    \"inputs\": [\n        {\n\
-  \            \"name\": \"xsca\",\n            \"type\": \"scasc\",\n           \
-  \ \"default_value\": \"casc\",\n            \"description\": \"csacas\"\n      \
-  \  },\n        {\n            \"name\": \"xsca\",\n            \"type\": \"scasc\"\
-  ,\n            \"default_value\": \"casc\",\n            \"description\": \"csacas\"\
-  \n        }\n    ],\n    \"outputs\": [],\n    \"dependencies\": [],\n    \"authors\"\
-  : [],\n    \"errors\": [],\n    \"added_by\": 1\n}"
+added_by: 1
+authors: []
+category: 1
+dependencies: []
+description: sasca
+errors: []
+id: 37
+inputs:
+- default_value: casc
+  description: csacas
+  name: xsca
+  type: scasc
+- default_value: casc
+  description: csacas
+  name: xsca
+  type: scasc
+name: tests
+outputs: []
+version: 1.0.0
