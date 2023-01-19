@@ -1,15 +1,15 @@
 {
-    "id": 34,
+    "id": 35,
     "name": "TestSpec",
-    "description": "csdc",
+    "description": "cdc",
     "category": 1,
     "version": "1.0.0",
     "inputs": [
         {
-            "name": "dcsd",
-            "type": "csdc",
-            "default_value": "dcd",
-            "description": "csdc"
+            "name": "cads",
+            "type": "csd",
+            "default_value": "csdv",
+            "description": "sdvsd"
         }
     ],
     "outputs": [],
