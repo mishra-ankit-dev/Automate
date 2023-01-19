@@ -1,0 +1,20 @@
+{
+    "id": 36,
+    "name": "ascdc",
+    "description": "dcsd",
+    "category": 1,
+    "version": "1.0.0",
+    "inputs": [
+        {
+            "name": "dc",
+            "type": "sdcd",
+            "default_value": "cds",
+            "description": "sd"
+        }
+    ],
+    "outputs": [],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
+    "added_by": 1
+}
