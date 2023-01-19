@@ -10,6 +10,12 @@
             "type": "sdcd",
             "default_value": "cds",
             "description": "sd"
+        },
+        {
+            "name": "dc",
+            "type": "sdcd",
+            "default_value": "cds",
+            "description": "sd"
         }
     ],
     "outputs": [],
