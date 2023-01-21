@@ -1,9 +1,6 @@
 {
     "name": "ReadPDF",
-    "technology": {
-        "id": 1,
-        "name": "python"
-    },
+    "technology": "python",
     "description": "Reads PDF",
     "version": "1.0.1",
     "developers": [],
