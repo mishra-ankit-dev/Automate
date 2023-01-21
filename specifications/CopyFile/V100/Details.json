@@ -1,28 +1,40 @@
 {
-    "id": 1,
-    "name": "DeleteFolder",
-    "description": "Deletes folder from a directory",
-    "category": 2,
+    "id": 33,
+    "name": "CopyFile",
+    "description": "Copies a file from a directory to another",
+    "category": 1,
     "version": "1.0.0",
     "inputs": [
         {
-            "name": "sourceFolderPath",
+            "name": "sourceDirectory",
             "type": "string",
             "default_value": "NA",
             "description": "Path of the source folder"
         },
         {
-            "name": "folderTobeDeleted",
+            "name": "sourceFileName",
             "type": "string",
             "default_value": "NA",
-            "description": "Name of the folder which has to be deleted"
+            "description": "Name of the file to be copied"
+        },
+        {
+            "name": "targetDirectory",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Path of the target folder"
+        },
+        {
+            "name": "targetFileName",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Name of the file which is to given to copied file"
         }
     ],
     "outputs": [
         {
-            "name": "deletedFolderPath",
+            "name": "targetFilePath",
             "type": "string",
-            "description": "Path of the folder deleted"
+            "description": "Path of the copied file"
         },
         {
             "name": "status",
@@ -35,8 +47,23 @@
     "errors": [
         {
             "message": "FOLDER_NOT_FOUND",
-            "code": "X10000000000",
-            "description": "Parent folder not found"
+            "code": "X1000000000",
+            "description": "Source folder not found"
+        },
+        {
+            "message": "FOLDER_NOT_FOUND",
+            "code": "X1000000002",
+            "description": "Target folder not found"
+        },
+        {
+            "message": "FILE_NOT_FOUND",
+            "code": "X1000000001",
+            "description": "Source File not found"
+        },
+        {
+            "message": "FILE_NOT_FOUND",
+            "code": "X1000000003",
+            "description": "Target File not found"
         }
     ],
     "added_by": 1
