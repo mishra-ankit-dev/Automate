@@ -1,9 +1,6 @@
 {
     "name": "ConvertWordToPDF",
-    "technology": {
-        "id": 1,
-        "name": "python"
-    },
+    "technology": "python",
     "description": "Converts the word file into PDF",
     "version": "1.0.0",
     "developers": [],
