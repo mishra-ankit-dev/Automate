@@ -1,69 +1,49 @@
 {
-    "id": 33,
-    "name": "CopyFile",
-    "description": "Copies a file from a directory to another",
+    "id": 31,
+    "name": "DeleteFolder",
+    "description": "Deletes a folder from a parent folder",
     "category": 1,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "inputs": [
         {
-            "name": "sourceDirectory",
+            "name": "parentFolderPath",
             "type": "string",
-            "default_value": "NA",
-            "description": "Path of the source folder"
+            "default_value": "None",
+            "description": "Parent Folder path from where a folder has to be deleted"
         },
         {
-            "name": "sourceFileName",
+            "name": "folderToBeDeleted",
             "type": "string",
-            "default_value": "NA",
-            "description": "Name of the file to be copied"
-        },
-        {
-            "name": "targetDirectory",
-            "type": "string",
-            "default_value": "NA",
-            "description": "Path of the target folder"
-        },
-        {
-            "name": "targetFileName",
-            "type": "string",
-            "default_value": "NA",
-            "description": "Name of the file which is to given to copied file"
+            "default_value": "None",
+            "description": "Name of folder to be deleted"
         }
     ],
     "outputs": [
         {
-            "name": "targetFilePath",
-            "type": "string",
-            "description": "Path of the copied file"
-        },
-        {
-            "name": "status",
-            "type": "string",
-            "description": "Status of the process execution"
+            "name": "deletionStatus",
+            "type": "boolean",
+            "description": "Status if the file is deleted or not"
         }
     ],
-    "dependencies": [],
-    "authors": [],
+    "dependencies": [
+        {
+            "name": "os",
+            "type": "module",
+            "description": "For interaction with System directories"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Ankit Mishra",
+            "email": "ankit.mishra@robofi.com",
+            "phone": "9816777240"
+        }
+    ],
     "errors": [
         {
             "message": "FOLDER_NOT_FOUND",
-            "code": "X1000000000",
-            "description": "Source folder not found"
-        },
-        {
-            "message": "FOLDER_NOT_FOUND",
-            "code": "X1000000002",
-            "description": "Target folder not found"
-        },
-        {
-            "message": "FILE_NOT_FOUND",
-            "code": "X1000000001",
-            "description": "Source File not found"
-        },
-        {
-            "message": "FILE_NOT_FOUND",
-            "code": "X1000000003",
-            "description": "Target File not found"
+            "code": "1000000000",
+            "description": "Folder not found"
         }
     ],
     "added_by": 1
