@@ -1,8 +1,8 @@
 {
-    "id": 1,
-    "name": "DeleteFolder",
-    "description": "Deletes folder from a directory",
-    "category": 2,
+    "id": 43,
+    "name": "ReadExcel",
+    "description": "Read the content of an excel file",
+    "category": 5,
     "version": "1.0.0",
     "inputs": [
         {
@@ -12,32 +12,26 @@
             "description": "Path of the source folder"
         },
         {
-            "name": "folderTobeDeleted",
+            "name": "excelFileName",
             "type": "string",
             "default_value": "NA",
-            "description": "Name of the folder which has to be deleted"
+            "description": "Name of the excel file to be read"
         }
     ],
     "outputs": [
         {
-            "name": "deletedFolderPath",
-            "type": "string",
-            "description": "Path of the folder deleted"
-        },
-        {
             "name": "status",
             "type": "string",
             "description": "Status of the process execution"
+        },
+        {
+            "name": "excelData",
+            "type": "DataTable",
+            "description": "Content of the excel file as a table"
         }
     ],
     "dependencies": [],
     "authors": [],
-    "errors": [
-        {
-            "message": "FOLDER_NOT_FOUND",
-            "code": "X10000000000",
-            "description": "Parent folder not found"
-        }
-    ],
+    "errors": [],
     "added_by": 1
 }
