@@ -1,28 +1,28 @@
 {
-    "id": 3,
-    "name": "ReadPDF",
-    "description": "Reads content from a PDF file.",
-    "category": 3,
+    "id": 1,
+    "name": "DeleteFolder",
+    "description": "Deletes folder from a directory",
+    "category": 2,
     "version": "1.0.0",
     "inputs": [
         {
-            "name": "folderPath",
+            "name": "sourceFolderPath",
             "type": "string",
             "default_value": "NA",
-            "description": "Path of the folder where PDF file is present"
+            "description": "Path of the source folder"
         },
         {
-            "name": "pdfFileName",
+            "name": "folderTobeDeleted",
             "type": "string",
             "default_value": "NA",
-            "description": "Name of the PDF file"
+            "description": "Name of the folder which has to be deleted"
         }
     ],
     "outputs": [
         {
-            "name": "content",
+            "name": "deletedFolderPath",
             "type": "string",
-            "description": "Content of the PDF file"
+            "description": "Path of the folder deleted"
         },
         {
             "name": "status",
@@ -36,12 +36,7 @@
         {
             "message": "FOLDER_NOT_FOUND",
             "code": "X10000000000",
-            "description": "Folder path does not exist"
-        },
-        {
-            "message": "FILE_NOT_FOUND",
-            "code": "X1000000001",
-            "description": "PDF file does not exist"
+            "description": "Parent folder not found"
         }
     ],
     "added_by": 1
