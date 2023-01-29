@@ -1,0 +1,13 @@
+{
+    "id": 43,
+    "name": "ReadExcel",
+    "description": "Read the content of an excel file",
+    "category": 5,
+    "version": "1.0.0",
+    "inputs": [],
+    "outputs": [],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
+    "added_by": 1
+}
