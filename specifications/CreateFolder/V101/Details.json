@@ -1,55 +1,32 @@
 {
-    "id": 1,
+    "id": 2,
     "name": "CreateFolder",
-    "description": "Creates folder at give destination path.",
+    "description": "Creates folder",
     "category": 1,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "inputs": [
         {
             "name": "parentFolder",
             "type": "string",
             "default_value": "NA",
-            "description": "Folder of the the parent folder where new folder has to be created."
+            "description": "Parent Folder"
         },
         {
             "name": "folderName",
             "type": "string",
             "default_value": "NA",
-            "description": "Name of the folder to be created."
+            "description": "Folder to be created"
         }
     ],
     "outputs": [
         {
             "name": "status",
             "type": "string",
-            "description": "Status of the process execution"
-        },
-        {
-            "name": "createdFolderPath",
-            "type": "string",
-            "description": "Path of the new folder created."
+            "description": "Process execution status"
         }
     ],
-    "dependencies": [
-        {
-            "name": "os",
-            "type": "module",
-            "description": "Interact with system OS"
-        }
-    ],
-    "authors": [
-        {
-            "name": "Ankit Mishra",
-            "email": "amishm766@robofi.com",
-            "phone": "9713490290"
-        }
-    ],
-    "errors": [
-        {
-            "message": "FOLDER_NOT_FOUND",
-            "code": "1100000001",
-            "description": "Parent folder not found"
-        }
-    ],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
     "added_by": 1
 }
