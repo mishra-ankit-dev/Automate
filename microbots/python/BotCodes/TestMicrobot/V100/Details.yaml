@@ -1,30 +1,27 @@
-name: DeleteFolder
+name: TestMicrobot
 technology: python
-description: Deletes folder from a given directory.
+description: Test
 version: 1.0.0
 developers: []
 added_by: 1
-unique_full_name: DeleteFolder__V1_0_0
-category: 2
+unique_full_name: ConvertWordToPDF__V1_0_0
+category: 4
 inputs:
 - name: sourceFolderPath
   type: string
   default_value: NA
-  description: Path of the source folder
-- name: folderTobeDeleted
+  description: Path of the folder where word file is present
+- name: wordFileName
   type: string
   default_value: NA
-  description: Name of the folder which has to be deleted
+  description: Name of the word file to be read
 outputs:
-- name: deletedFolderPath
+- name: pdfFilePath
   type: string
-  description: Path of the folder deleted
+  description: File path of the PDF file created
 - name: status
   type: string
   description: Status of the process execution
 dependencies: []
 authors: []
-errors:
-- message: FOLDER_NOT_FOUND
-  code: X10000000000
-  description: Parent folder not found
+errors: []
