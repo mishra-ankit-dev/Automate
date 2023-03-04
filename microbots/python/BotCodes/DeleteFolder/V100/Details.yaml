@@ -5,7 +5,6 @@ version: 1.0.0
 developers: []
 added_by: 1
 unique_full_name: DeleteFolder__V1_0_0
-category: 2
 inputs:
 - name: sourceFolderPath
   type: string
