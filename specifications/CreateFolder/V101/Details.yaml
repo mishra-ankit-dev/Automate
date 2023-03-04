@@ -1,32 +1,43 @@
 {
-    "id": 4,
-    "name": "DeleteFile",
-    "description": "Deletes a file from a given folder",
+    "id": 5,
+    "name": "ListFolder",
+    "description": "List all the folders present in a folder.",
     "category": 1,
     "version": "1.0.0",
     "inputs": [
         {
-            "name": "fileNameToBeDeleted",
+            "name": "parentFolder",
             "type": "string",
             "default_value": "NA",
-            "description": "Name of the file to be deleted"
-        },
-        {
-            "name": "folderPath",
-            "type": "string",
-            "default_value": "NA",
-            "description": "Path of the folder from where to delete a file"
+            "description": "Parent folder path to get list from"
         }
     ],
     "outputs": [
         {
             "name": "status",
             "type": "string",
-            "description": "Status of the process execution"
+            "description": "Process execution status"
+        },
+        {
+            "name": "listOfFolders",
+            "type": "list",
+            "description": "List of  folders present in parent folder"
         }
     ],
     "dependencies": [],
-    "authors": [],
-    "errors": [],
+    "authors": [
+        {
+            "name": "Ankit Mishra",
+            "email": "amishm766@robofi.com",
+            "phone": "9713490290"
+        }
+    ],
+    "errors": [
+        {
+            "message": "FOLDER_NOT_FOUND",
+            "code": "10000000001",
+            "description": "Parent folder not found"
+        }
+    ],
     "added_by": 1
 }
