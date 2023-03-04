@@ -1,28 +1,33 @@
 {
-    "id": 49,
-    "name": "CreateFolder",
-    "description": "Creates folder",
-    "category": 1,
-    "version": "1.0.1",
+    "id": 46,
+    "name": "ConvertWordToPDF",
+    "description": "Converts the word file into PDF",
+    "category": 4,
+    "version": "1.0.0",
     "inputs": [
         {
-            "name": "parentFolder",
+            "name": "sourceFolderPath",
             "type": "string",
             "default_value": "NA",
-            "description": "Parent Folder"
+            "description": "Path of the folder where word file is present"
         },
         {
-            "name": "folderName",
+            "name": "wordFileName",
             "type": "string",
             "default_value": "NA",
-            "description": "Folder to be created"
+            "description": "Name of the word file to be read"
         }
     ],
     "outputs": [
         {
+            "name": "pdfFilePath",
+            "type": "string",
+            "description": "File path of the PDF file created"
+        },
+        {
             "name": "status",
             "type": "string",
-            "description": "Process execution status"
+            "description": "Status of the process execution"
         }
     ],
     "dependencies": [],
