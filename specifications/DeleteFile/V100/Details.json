@@ -1,50 +1,32 @@
 {
-    "id": 52,
-    "name": "DeleteFolder",
-    "description": "Deletes a folder from a parent folder.",
+    "id": 51,
+    "name": "DeleteFile",
+    "description": "Deletes a file from a given folder",
     "category": 1,
-    "version": "2.0.0",
+    "version": "1.0.0",
     "inputs": [
         {
-            "name": "parentFolderPath",
+            "name": "fileNameToBeDeleted",
             "type": "string",
             "default_value": "NA",
-            "description": "Parent Folder path from where a folder has to be deleted"
+            "description": "Name of the file to be deleted"
         },
         {
-            "name": "folderToBeDeleted",
+            "name": "folderPath",
             "type": "string",
-            "default_value": "None",
-            "description": "Name of folder to be deleted"
+            "default_value": "NA",
+            "description": "Path of the folder from where to delete a file"
         }
     ],
     "outputs": [
         {
-            "name": "deletionStatus",
-            "type": "boolean",
-            "description": "Status if the file is deleted or not"
+            "name": "status",
+            "type": "string",
+            "description": "Status of the process execution"
         }
     ],
-    "dependencies": [
-        {
-            "name": "os",
-            "type": "module",
-            "description": "For interaction with System directories"
-        }
-    ],
-    "authors": [
-        {
-            "name": "Ankit Mishra",
-            "email": "ankit.mishra@robofi.com",
-            "phone": "9816777240"
-        }
-    ],
-    "errors": [
-        {
-            "message": "FOLDER_NOT_FOUND",
-            "code": "1000000000",
-            "description": "Folder not found"
-        }
-    ],
+    "dependencies": [],
+    "authors": [],
+    "errors": [],
     "added_by": 1
 }
