@@ -1,17 +1,14 @@
-"{\n    \"name\": \"DeleteFolder\",\n    \"technology\": \"python\",\n    \"description\"\
-  : \"Deletes folder from a given directory.\",\n    \"version\": \"1.0.0\",\n   \
-  \ \"developers\": [],\n    \"added_by\": 1,\n    \"unique_full_name\": \"DeleteFolder__V1_0_0\"\
-  ,\n    \"category\": 2,\n    \"inputs\": [\n        {\n            \"name\": \"\
-  sourceFolderPath\",\n            \"type\": \"string\",\n            \"default_value\"\
-  : \"NA\",\n            \"description\": \"Path of the source folder\"\n        },\n\
-  \        {\n            \"name\": \"folderTobeDeleted\",\n            \"type\":\
-  \ \"string\",\n            \"default_value\": \"NA\",\n            \"description\"\
-  : \"Name of the folder which has to be deleted\"\n        }\n    ],\n    \"outputs\"\
-  : [\n        {\n            \"name\": \"deletedFolderPath\",\n            \"type\"\
-  : \"string\",\n            \"description\": \"Path of the folder deleted\"\n   \
-  \     },\n        {\n            \"name\": \"status\",\n            \"type\": \"\
-  string\",\n            \"description\": \"Status of the process execution\"\n  \
-  \      }\n    ],\n    \"dependencies\": [],\n    \"authors\": [],\n    \"errors\"\
-  : [\n        {\n            \"message\": \"FOLDER_NOT_FOUND\",\n            \"code\"\
-  : \"X10000000000\",\n            \"description\": \"Parent folder not found\"\n\
-  \        }\n    ]\n}"
+"{\n    \"name\": \"TestMicrobot\",\n    \"technology\": \"python\",\n    \"description\"\
+  : \"Test\",\n    \"version\": \"1.0.0\",\n    \"developers\": [],\n    \"added_by\"\
+  : 1,\n    \"unique_full_name\": \"ConvertWordToPDF__V1_0_0\",\n    \"category\"\
+  : 4,\n    \"inputs\": [\n        {\n            \"name\": \"sourceFolderPath\",\n\
+  \            \"type\": \"string\",\n            \"default_value\": \"NA\",\n   \
+  \         \"description\": \"Path of the folder where word file is present\"\n \
+  \       },\n        {\n            \"name\": \"wordFileName\",\n            \"type\"\
+  : \"string\",\n            \"default_value\": \"NA\",\n            \"description\"\
+  : \"Name of the word file to be read\"\n        }\n    ],\n    \"outputs\": [\n\
+  \        {\n            \"name\": \"pdfFilePath\",\n            \"type\": \"string\"\
+  ,\n            \"description\": \"File path of the PDF file created\"\n        },\n\
+  \        {\n            \"name\": \"status\",\n            \"type\": \"string\"\
+  ,\n            \"description\": \"Status of the process execution\"\n        }\n\
+  \    ],\n    \"dependencies\": [],\n    \"authors\": [],\n    \"errors\": []\n}"
