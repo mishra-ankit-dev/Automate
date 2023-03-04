@@ -1,29 +1,24 @@
 {
-    "id": 46,
-    "name": "ConvertWordToPDF",
-    "description": "Converts the word file into PDF",
-    "category": 4,
+    "id": 51,
+    "name": "DeleteFile",
+    "description": "Deletes a file from a given folder",
+    "category": 1,
     "version": "1.0.0",
     "inputs": [
         {
-            "name": "sourceFolderPath",
+            "name": "fileNameToBeDeleted",
             "type": "string",
             "default_value": "NA",
-            "description": "Path of the folder where word file is present"
+            "description": "Name of the file to be deleted"
         },
         {
-            "name": "wordFileName",
+            "name": "folderPath",
             "type": "string",
             "default_value": "NA",
-            "description": "Name of the word file to be read"
+            "description": "Path of the folder from where to delete a file"
         }
     ],
     "outputs": [
-        {
-            "name": "pdfFilePath",
-            "type": "string",
-            "description": "File path of the PDF file created"
-        },
         {
             "name": "status",
             "type": "string",
