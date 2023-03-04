@@ -1,0 +1,27 @@
+name: TestMicrobot
+technology: python
+description: Test
+version: 1.0.0
+developers: []
+added_by: 1
+unique_full_name: ConvertWordToPDF__V1_0_0
+category: 4
+inputs:
+- name: sourceFolderPath
+  type: string
+  default_value: NA
+  description: Path of the folder where word file is present
+- name: wordFileName
+  type: string
+  default_value: NA
+  description: Name of the word file to be read
+outputs:
+- name: pdfFilePath
+  type: string
+  description: File path of the PDF file created
+- name: status
+  type: string
+  description: Status of the process execution
+dependencies: []
+authors: []
+errors: []
