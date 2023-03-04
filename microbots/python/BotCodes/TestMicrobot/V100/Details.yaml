@@ -1,19 +1,14 @@
-"{\n    \"id\": 180,\n    \"name\": \"TestMicrobot\",\n    \"technology\": {\n   \
-  \     \"id\": 1,\n        \"name\": \"python\"\n    },\n    \"description\": \"\
-  Test\",\n    \"version\": \"1.0.0\",\n    \"specification\": {\n        \"id\":\
-  \ 46,\n        \"name\": \"ConvertWordToPDF\",\n        \"description\": \"Converts\
-  \ the word file into PDF\",\n        \"category\": 4,\n        \"version\": \"1.0.0\"\
-  ,\n        \"inputs\": [\n            {\n                \"name\": \"sourceFolderPath\"\
-  ,\n                \"type\": \"string\",\n                \"default_value\": \"\
-  NA\",\n                \"description\": \"Path of the folder where word file is\
-  \ present\"\n            },\n            {\n                \"name\": \"wordFileName\"\
-  ,\n                \"type\": \"string\",\n                \"default_value\": \"\
-  NA\",\n                \"description\": \"Name of the word file to be read\"\n \
-  \           }\n        ],\n        \"outputs\": [\n            {\n             \
-  \   \"name\": \"pdfFilePath\",\n                \"type\": \"string\",\n        \
-  \        \"description\": \"File path of the PDF file created\"\n            },\n\
-  \            {\n                \"name\": \"status\",\n                \"type\"\
-  : \"string\",\n                \"description\": \"Status of the process execution\"\
-  \n            }\n        ],\n        \"dependencies\": [],\n        \"authors\"\
-  : [],\n        \"errors\": [],\n        \"added_by\": 1\n    },\n    \"developers\"\
-  : [],\n    \"added_by\": 1\n}"
+"{\n    \"name\": \"TestMicrobot\",\n    \"technology\": \"python\",\n    \"description\"\
+  : \"Test\",\n    \"version\": \"1.0.0\",\n    \"developers\": [],\n    \"added_by\"\
+  : 1,\n    \"unique_full_name\": \"ConvertWordToPDF__V1_0_0\",\n    \"category\"\
+  : 4,\n    \"inputs\": [\n        {\n            \"name\": \"sourceFolderPath\",\n\
+  \            \"type\": \"string\",\n            \"default_value\": \"NA\",\n   \
+  \         \"description\": \"Path of the folder where word file is present\"\n \
+  \       },\n        {\n            \"name\": \"wordFileName\",\n            \"type\"\
+  : \"string\",\n            \"default_value\": \"NA\",\n            \"description\"\
+  : \"Name of the word file to be read\"\n        }\n    ],\n    \"outputs\": [\n\
+  \        {\n            \"name\": \"pdfFilePath\",\n            \"type\": \"string\"\
+  ,\n            \"description\": \"File path of the PDF file created\"\n        },\n\
+  \        {\n            \"name\": \"status\",\n            \"type\": \"string\"\
+  ,\n            \"description\": \"Status of the process execution\"\n        }\n\
+  \    ],\n    \"dependencies\": [],\n    \"authors\": [],\n    \"errors\": []\n}"
