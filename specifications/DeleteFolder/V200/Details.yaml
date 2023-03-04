@@ -1,3 +1,4 @@
+id: 1
 name: DeleteFolder
 description: Deletes a folder from a parent folder.
 category: 1
