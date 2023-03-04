@@ -1,69 +1,42 @@
 {
-    "id": 47,
-    "name": "CopyFile",
-    "description": "Copies a file from a directory to another",
+    "id": 50,
+    "name": "ListFolder",
+    "description": "List all the folders present in a folder.",
     "category": 1,
     "version": "1.0.0",
     "inputs": [
         {
-            "name": "sourceDirectory",
+            "name": "parentFolder",
             "type": "string",
             "default_value": "NA",
-            "description": "Path of the source folder"
-        },
-        {
-            "name": "sourceFileName",
-            "type": "string",
-            "default_value": "NA",
-            "description": "Name of the file to be copied"
-        },
-        {
-            "name": "targetDirectory",
-            "type": "string",
-            "default_value": "NA",
-            "description": "Path of the target folder"
-        },
-        {
-            "name": "targetFileName",
-            "type": "string",
-            "default_value": "NA",
-            "description": "Name of the file which is to given to copied file"
+            "description": "Parent folder path to get list from"
         }
     ],
     "outputs": [
         {
-            "name": "targetFilePath",
-            "type": "string",
-            "description": "Path of the copied file"
-        },
-        {
             "name": "status",
             "type": "string",
-            "description": "Status of the process execution"
+            "description": "Process execution status"
+        },
+        {
+            "name": "listOfFolders",
+            "type": "list",
+            "description": "List of  folders present in parent folder"
         }
     ],
     "dependencies": [],
-    "authors": [],
+    "authors": [
+        {
+            "name": "Ankit Mishra",
+            "email": "amishm766@robofi.com",
+            "phone": "9713490290"
+        }
+    ],
     "errors": [
         {
             "message": "FOLDER_NOT_FOUND",
-            "code": "X1000000000",
-            "description": "Source folder not found"
-        },
-        {
-            "message": "FOLDER_NOT_FOUND",
-            "code": "X1000000002",
-            "description": "Target folder not found"
-        },
-        {
-            "message": "FILE_NOT_FOUND",
-            "code": "X1000000001",
-            "description": "Source File not found"
-        },
-        {
-            "message": "FILE_NOT_FOUND",
-            "code": "X1000000003",
-            "description": "Target File not found"
+            "code": "10000000001",
+            "description": "Parent folder not found"
         }
     ],
     "added_by": 1
