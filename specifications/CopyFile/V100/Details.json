@@ -1,32 +1,70 @@
 {
-    "id": 49,
-    "name": "CreateFolder",
-    "description": "Creates folder",
+    "id": 47,
+    "name": "CopyFile",
+    "description": "Copies a file from a directory to another",
     "category": 1,
-    "version": "1.0.1",
+    "version": "1.0.0",
     "inputs": [
         {
-            "name": "parentFolder",
+            "name": "sourceDirectory",
             "type": "string",
             "default_value": "NA",
-            "description": "Parent Folder"
+            "description": "Path of the source folder"
         },
         {
-            "name": "folderName",
+            "name": "sourceFileName",
             "type": "string",
             "default_value": "NA",
-            "description": "Folder to be created"
+            "description": "Name of the file to be copied"
+        },
+        {
+            "name": "targetDirectory",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Path of the target folder"
+        },
+        {
+            "name": "targetFileName",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Name of the file which is to given to copied file"
         }
     ],
     "outputs": [
         {
+            "name": "targetFilePath",
+            "type": "string",
+            "description": "Path of the copied file"
+        },
+        {
             "name": "status",
             "type": "string",
-            "description": "Process execution status"
+            "description": "Status of the process execution"
         }
     ],
     "dependencies": [],
     "authors": [],
-    "errors": [],
+    "errors": [
+        {
+            "message": "FOLDER_NOT_FOUND",
+            "code": "X1000000000",
+            "description": "Source folder not found"
+        },
+        {
+            "message": "FOLDER_NOT_FOUND",
+            "code": "X1000000002",
+            "description": "Target folder not found"
+        },
+        {
+            "message": "FILE_NOT_FOUND",
+            "code": "X1000000001",
+            "description": "Source File not found"
+        },
+        {
+            "message": "FILE_NOT_FOUND",
+            "code": "X1000000003",
+            "description": "Target File not found"
+        }
+    ],
     "added_by": 1
 }
