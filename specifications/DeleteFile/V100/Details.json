@@ -1,24 +1,29 @@
 {
-    "id": 2,
-    "name": "DeleteFile",
-    "description": "Deletes a file from a given folder",
-    "category": 1,
+    "id": 53,
+    "name": "DeleteFolder",
+    "description": "Deletes folder from a directory",
+    "category": 2,
     "version": "1.0.0",
     "inputs": [
         {
-            "name": "fileNameToBeDeleted",
+            "name": "sourceFolderPath",
             "type": "string",
             "default_value": "NA",
-            "description": "Name of the file to be deleted"
+            "description": "Path of the source folder"
         },
         {
-            "name": "folderPath",
+            "name": "folderTobeDeleted",
             "type": "string",
             "default_value": "NA",
-            "description": "Path of the folder from where to delete a file"
+            "description": "Name of the folder which has to be deleted"
         }
     ],
     "outputs": [
+        {
+            "name": "deletedFolderPath",
+            "type": "string",
+            "description": "Path of the folder deleted"
+        },
         {
             "name": "status",
             "type": "string",
@@ -27,6 +32,12 @@
     ],
     "dependencies": [],
     "authors": [],
-    "errors": [],
+    "errors": [
+        {
+            "message": "FOLDER_NOT_FOUND",
+            "code": "X10000000000",
+            "description": "Parent folder not found"
+        }
+    ],
     "added_by": 1
 }
