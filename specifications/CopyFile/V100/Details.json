@@ -1,15 +1,21 @@
 {
-    "id": 50,
-    "name": "ListFolder",
-    "description": "List all the folders present in a folder.",
+    "id": 49,
+    "name": "CreateFolder",
+    "description": "Creates folder",
     "category": 1,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "inputs": [
         {
             "name": "parentFolder",
             "type": "string",
             "default_value": "NA",
-            "description": "Parent folder path to get list from"
+            "description": "Parent Folder"
+        },
+        {
+            "name": "folderName",
+            "type": "string",
+            "default_value": "NA",
+            "description": "Folder to be created"
         }
     ],
     "outputs": [
@@ -17,27 +23,10 @@
             "name": "status",
             "type": "string",
             "description": "Process execution status"
-        },
-        {
-            "name": "listOfFolders",
-            "type": "list",
-            "description": "List of  folders present in parent folder"
         }
     ],
     "dependencies": [],
-    "authors": [
-        {
-            "name": "Ankit Mishra",
-            "email": "amishm766@robofi.com",
-            "phone": "9713490290"
-        }
-    ],
-    "errors": [
-        {
-            "message": "FOLDER_NOT_FOUND",
-            "code": "10000000001",
-            "description": "Parent folder not found"
-        }
-    ],
+    "authors": [],
+    "errors": [],
     "added_by": 1
 }
