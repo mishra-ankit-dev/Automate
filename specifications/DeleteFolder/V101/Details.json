@@ -1,37 +1,50 @@
 {
-    "id": 46,
-    "name": "ConvertWordToPDF",
-    "description": "Converts the word file into PDF",
-    "category": 4,
-    "version": "1.0.0",
+    "id": 48,
+    "name": "DeleteFolder",
+    "description": "Deletes a folder from a parent folder",
+    "category": 1,
+    "version": "1.0.1",
     "inputs": [
         {
-            "name": "sourceFolderPath",
+            "name": "parentFolderPath",
             "type": "string",
-            "default_value": "NA",
-            "description": "Path of the folder where word file is present"
+            "default_value": "None",
+            "description": "Parent Folder path from where a folder has to be deleted"
         },
         {
-            "name": "wordFileName",
+            "name": "folderToBeDeleted",
             "type": "string",
-            "default_value": "NA",
-            "description": "Name of the word file to be read"
+            "default_value": "None",
+            "description": "Name of folder to be deleted"
         }
     ],
     "outputs": [
         {
-            "name": "pdfFilePath",
-            "type": "string",
-            "description": "File path of the PDF file created"
-        },
-        {
-            "name": "status",
-            "type": "string",
-            "description": "Status of the process execution"
+            "name": "deletionStatus",
+            "type": "boolean",
+            "description": "Status if the file is deleted or not"
         }
     ],
-    "dependencies": [],
-    "authors": [],
-    "errors": [],
+    "dependencies": [
+        {
+            "name": "os",
+            "type": "module",
+            "description": "For interaction with System directories"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Ankit Mishra",
+            "email": "ankit.mishra@robofi.com",
+            "phone": "9816777240"
+        }
+    ],
+    "errors": [
+        {
+            "message": "FOLDER_NOT_FOUND",
+            "code": "1000000000",
+            "description": "Folder not found"
+        }
+    ],
     "added_by": 1
 }
