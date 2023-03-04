@@ -1,49 +1,42 @@
 {
-    "id": 48,
-    "name": "DeleteFolder",
-    "description": "Deletes a folder from a parent folder",
+    "id": 50,
+    "name": "ListFolder",
+    "description": "List all the folders present in a folder.",
     "category": 1,
-    "version": "1.0.1",
+    "version": "1.0.0",
     "inputs": [
         {
-            "name": "parentFolderPath",
+            "name": "parentFolder",
             "type": "string",
-            "default_value": "None",
-            "description": "Parent Folder path from where a folder has to be deleted"
-        },
-        {
-            "name": "folderToBeDeleted",
-            "type": "string",
-            "default_value": "None",
-            "description": "Name of folder to be deleted"
+            "default_value": "NA",
+            "description": "Parent folder path to get list from"
         }
     ],
     "outputs": [
         {
-            "name": "deletionStatus",
-            "type": "boolean",
-            "description": "Status if the file is deleted or not"
-        }
-    ],
-    "dependencies": [
+            "name": "status",
+            "type": "string",
+            "description": "Process execution status"
+        },
         {
-            "name": "os",
-            "type": "module",
-            "description": "For interaction with System directories"
+            "name": "listOfFolders",
+            "type": "list",
+            "description": "List of  folders present in parent folder"
         }
     ],
+    "dependencies": [],
     "authors": [
         {
             "name": "Ankit Mishra",
-            "email": "ankit.mishra@robofi.com",
-            "phone": "9816777240"
+            "email": "amishm766@robofi.com",
+            "phone": "9713490290"
         }
     ],
     "errors": [
         {
             "message": "FOLDER_NOT_FOUND",
-            "code": "1000000000",
-            "description": "Folder not found"
+            "code": "10000000001",
+            "description": "Parent folder not found"
         }
     ],
     "added_by": 1
