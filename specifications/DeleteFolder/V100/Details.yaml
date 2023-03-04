@@ -1,0 +1,11 @@
+id: 29
+name: DeleteFolder
+description: Deletes a folder from a given parent folder
+category: 2
+version: 1.0.0
+inputs: []
+outputs: []
+dependencies: []
+authors: []
+errors: []
+added_by: 1
