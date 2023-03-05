@@ -1,7 +1,6 @@
-id: 6
 name: DeleteFolder
 description: Deletes a folder from a parent folder.
-category: 1
+category: FOLDER
 version: 2.0.0
 inputs:
 - name: parentFolderPath
