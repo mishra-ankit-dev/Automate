@@ -1,0 +1,32 @@
+name: DeleteFolder
+technology: python
+description: Deletes folder from a given directory.
+version: 2.0.0
+developers: []
+added_by: 1
+unique_full_name: DeleteFolder__V2_0_0
+inputs:
+- name: parentFolderPath
+  type: string
+  default_value: NA
+  description: Parent Folder path from where a folder has to be deleted
+- name: folderToBeDeleted
+  type: string
+  default_value: None
+  description: Name of folder to be deleted
+outputs:
+- name: deletionStatus
+  type: boolean
+  description: Status if the file is deleted or not
+dependencies:
+- name: os
+  type: module
+  description: For interaction with System directories
+authors:
+- name: Ankit Mishra
+  email: ankit.mishra@robofi.com
+  phone: '9816777240'
+errors:
+- message: FOLDER_NOT_FOUND
+  code: '1000000000'
+  description: Folder not found
