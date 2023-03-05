@@ -1,17 +1,21 @@
-name: DeleteFile
-description: Deletes a file from a given folder
-category: FILE
+id: 1
+name: ConvertWordToPDF
+description: Converts the word file into PDF
+category: PDF
 version: 1.0.0
 inputs:
-- name: fileNameToBeDeleted
+- name: sourceFolderPath
   type: string
   default_value: NA
-  description: Name of the file to be deleted
-- name: folderPath
+  description: Path of the folder where word file is present
+- name: wordFileName
   type: string
   default_value: NA
-  description: Path of the folder from where to delete a file
+  description: Name of the word file to be read
 outputs:
+- name: pdfFilePath
+  type: string
+  description: File path of the PDF file created
 - name: status
   type: string
   description: Status of the process execution
