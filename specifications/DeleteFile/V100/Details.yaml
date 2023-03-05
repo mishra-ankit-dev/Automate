@@ -1,7 +1,6 @@
-id: 4
 name: DeleteFile
 description: Deletes a file from a given folder
-category: 1
+category: FILE
 version: 1.0.0
 inputs:
 - name: fileNameToBeDeleted
