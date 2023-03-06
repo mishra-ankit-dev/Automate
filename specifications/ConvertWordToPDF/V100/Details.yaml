@@ -1,9 +1,16 @@
-id: 1
 name: ConvertWordToPDF
 description: Converts the word file into PDF
 category: PDF
 version: 1.0.0
 inputs:
+- name: sourceFolderPath
+  type: string
+  default_value: NA
+  description: Path of the folder where word file is present
+- name: wordFileName
+  type: string
+  default_value: NA
+  description: Name of the word file to be read
 - name: sourceFolderPath
   type: string
   default_value: NA
@@ -19,7 +26,16 @@ outputs:
 - name: status
   type: string
   description: Status of the process execution
+- name: pdfFilePath
+  type: string
+  description: File path of the PDF file created
+- name: status
+  type: string
+  description: Status of the process execution
 dependencies: []
-authors: []
+authors:
+- name: Ankit Mishra
+  email: amishm766@gmail.com
+  phone: '9713490290'
 errors: []
 added_by: 1
