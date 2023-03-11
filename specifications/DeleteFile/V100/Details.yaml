@@ -1,4 +1,3 @@
-id: 2
 name: DeleteFile
 description: Deletes a file from a given folder
 category: FILE
