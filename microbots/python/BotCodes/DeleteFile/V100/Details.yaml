@@ -1,6 +1,6 @@
 name: DeleteFile
 technology: python
-description: Deletes a file from given folder
+description: Deletes a file from given folder.
 version: 1.0.0
 developers: []
 added_by: 1
