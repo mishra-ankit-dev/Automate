@@ -1,4 +1,3 @@
-id: 3
 name: DeleteFolder
 description: Deletes a folder from a given parent folder
 category: FOLDER
