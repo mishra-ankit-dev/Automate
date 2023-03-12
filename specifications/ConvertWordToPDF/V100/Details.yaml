@@ -15,6 +15,10 @@ inputs:
   type: string
   default_value: NA
   description: Name of the word file to be read
+- name: a
+  type: a
+  default_value: a
+  description: a
 outputs:
 - name: pdfFilePath
   type: string
