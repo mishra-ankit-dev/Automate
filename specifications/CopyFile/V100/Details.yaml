@@ -10,12 +10,19 @@ inputs:
 - name: targetFolderPath
   type: string
   default_value: NA
-  description: Path of the target folder[
+  description: Path of the target folder{
 - name: sourceFilePath
   type: string
   default_value: NA
   description: Path of the source file.,
+- name: targetFolderPath
+  type: string
+  default_value: NA
+  description: Path of the target folder{
 outputs:
+- name: status
+  type: string
+  description: Status of the process execution.,
 - name: status
   type: string
   description: Status of the process execution.,
@@ -23,11 +30,20 @@ dependencies:
 - name: os
   type: module
   description: package to interact with system OS.,
+- name: os
+  type: module
+  description: package to interact with system OS.,
 authors:
 - name: Ankit Mishra.,
   email: amishm766@gmail.com
   phone: '9713490290'
+- name: Ankit Mishra.,
+  email: amishm766@gmail.com
+  phone: '9713490290'
 errors:
+- message: FILE_NOT_FOUND
+  code: X000000000
+  description: Source file is not found.,
 - message: FILE_NOT_FOUND
   code: X000000000
   description: Source file is not found.,
