@@ -15,7 +15,14 @@ inputs:
   type: string
   default_value: NA
   description: Path of the source file.,
+- name: targetFolderPath
+  type: string
+  default_value: NA
+  description: Path of the target folder
 outputs:
+- name: status
+  type: string
+  description: Status of the process execution.,
 - name: status
   type: string
   description: Status of the process execution.,
