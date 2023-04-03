@@ -1,0 +1,17 @@
+name: CopyFile
+description: Copy File from source to target directory
+category: FILE
+version: 1.0.0
+inputs:
+- name: sourceFilePath
+  type: string
+  default_value: NA
+  description: Path of the source file
+outputs:
+- name: status
+  type: string
+  description: Status of the process execution
+dependencies: []
+authors: []
+errors: []
+added_by: 1
