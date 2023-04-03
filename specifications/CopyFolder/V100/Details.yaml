@@ -1,0 +1,33 @@
+name: CopyFolder
+description: Copy a folder from source to destination
+category: FOLDER
+version: 1.0.0
+inputs:
+- name: sourceFolderPath
+  type: string
+  default_value: NA
+  description: Path of the source folder
+- name: destinationFolderPath
+  type: string
+  default_value: NA
+  description: Path of the destination folder path
+outputs:
+- name: status
+  type: string
+  description: Status of the process execution
+dependencies:
+- name: os
+  type: module
+  description: Module required to interact with system OS
+authors:
+- name: Ankit Mishra
+  email: amishm766@gmail.com
+  phone: '9713490290'
+errors:
+- message: FOLDER_NOT_FOUND
+  code: X00000000000
+  description: Source folder is not found
+- message: FOLDER_NOT_FOUND
+  code: X10000000000
+  description: Target folder is not found
+added_by: 1
