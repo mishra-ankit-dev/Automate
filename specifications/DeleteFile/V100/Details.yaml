@@ -11,11 +11,25 @@ inputs:
   type: string
   default_value: NA
   description: Path of the folder from where to delete a file
+- name: fileNameToBeDeleted
+  type: string
+  default_value: NA
+  description: Name of the file to be deleted
+- name: folderPath
+  type: string
+  default_value: NA
+  description: Path of the folder from where to delete a file
 outputs:
+- name: status
+  type: string
+  description: Status of the process execution
 - name: status
   type: string
   description: Status of the process execution
 dependencies: []
 authors: []
-errors: []
+errors:
+- message: FILE_NOT_FOUND
+  code: X000000000
+  description: File Not found
 added_by: 1
