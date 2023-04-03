@@ -1,5 +1,5 @@
 name: CopyFile
-description: Copy File from source to target directory
+description: Copy File from source to target directory.
 category: FILE
 version: 1.0.0
 inputs:
@@ -7,11 +7,24 @@ inputs:
   type: string
   default_value: NA
   description: Path of the source file
+- name: targetFolderPath
+  type: string
+  default_value: NA
+  description: Path of the target folder
 outputs:
 - name: status
   type: string
   description: Status of the process execution
-dependencies: []
-authors: []
-errors: []
+dependencies:
+- name: os
+  type: module
+  description: package to interact with system OS
+authors:
+- name: Ankit Mishra
+  email: amishm766@gmail.com
+  phone: '9713490290'
+errors:
+- message: FILE_NOT_FOUND
+  code: X000000000
+  description: Source file is not found
 added_by: 1
