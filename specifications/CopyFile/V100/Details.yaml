@@ -10,7 +10,7 @@ inputs:
 - name: targetFolderPath
   type: string
   default_value: NA
-  description: Path of the target folder000
+  description: Path of the target folder
 outputs:
 - name: status
   type: string
