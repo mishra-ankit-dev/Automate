@@ -11,11 +11,25 @@ inputs:
   type: string
   default_value: NA
   description: Path of the target folder...
+- name: sourceFilePath
+  type: string
+  default_value: NA
+  description: Path of the source file.,
+- name: targetFolderPath
+  type: string
+  default_value: NA
+  description: Path of the target folder___
 outputs:
 - name: status
   type: string
   description: Status of the process execution.,
+- name: status
+  type: string
+  description: Status of the process execution.,
 dependencies:
+- name: os
+  type: module
+  description: package to interact with system OS.,
 - name: os
   type: module
   description: package to interact with system OS.,
