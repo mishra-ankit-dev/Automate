@@ -1,0 +1,32 @@
+name: DeleteFile
+technology: python
+description: Deletes a file from given folder.
+version: 1.0.0
+developers: []
+added_by: 1
+unique_full_name: DeleteFile__V1_0_0
+inputs:
+- name: fileToBeDeleted
+  type: string
+  default_value: NA
+  description: File which needs to be deleted
+- name: sourceFolder
+  type: string
+  default_value: NA
+  description: Folder from where to delete a file
+outputs:
+- name: status
+  type: string
+  description: Process execution status
+dependencies:
+- name: os
+  type: modules
+  description: interacts with OS
+authors:
+- name: Ankit Mishra
+  email: amishm766@gmail.com
+  phone: '9713490290'
+errors:
+- message: FILE_NOT_FOUND
+  code: X1000000000
+  description: File not found which was supposed to be deleted
