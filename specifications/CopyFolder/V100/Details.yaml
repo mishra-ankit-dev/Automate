@@ -15,9 +15,6 @@ outputs:
 - name: status
   type: string
   description: Status of the process execution.
-- name: status
-  type: string
-  description: Status of the process execution.,
 dependencies:
 - name: os
   type: module
