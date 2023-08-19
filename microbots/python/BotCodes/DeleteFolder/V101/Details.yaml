@@ -14,21 +14,10 @@ inputs:
   type: string
   default_value: NA
   description: Name of the folder which has to be deleted
-- name: sourceFolderPath
-  type: string
-  default_value: NA
-  description: Path of the source folder
-- name: folderTobeDeleted
-  type: string
-  default_value: NA
-  description: Name of the folder which has to be deleted
 outputs:
 - name: deletedFolderPath
   type: string
   description: Path of the folder deleted
-- name: status
-  type: string
-  description: Status of the process execution
 dependencies: []
 authors: []
 errors:
