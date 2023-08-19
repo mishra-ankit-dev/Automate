@@ -11,21 +11,7 @@ inputs:
   type: string
   default_value: NA
   description: Path of the folder where excel is present
-- name: excelFileName
-  type: string
-  default_value: NA
-  description: Name of the excel file to be read
-- name: folderPath
-  type: string
-  default_value: NA
-  description: Path of the folder where excel is present
 outputs:
-- name: status
-  type: string
-  description: Status of the process execution.
-- name: data
-  type: Table
-  description: Content of the excel file
 - name: status
   type: string
   description: Status of the process execution.
