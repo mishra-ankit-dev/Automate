@@ -9,7 +9,7 @@ inputs:
 - name: fileNameToBeDeleted
   type: string
   default_value: NA
-  description: Name of the file to be deleted
+  description: Name of the file to be deleted.
 - name: folderPath
   type: string
   default_value: NA
