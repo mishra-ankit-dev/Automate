@@ -14,21 +14,10 @@ inputs:
   type: string
   default_value: NA
   description: Path of the destination folder path.
-- name: sourceFolderPath
-  type: string
-  default_value: NA
-  description: Path of the source folder.,
-- name: destinationFolderPath
-  type: string
-  default_value: NA
-  description: Path of the destination folder path.,
 outputs:
 - name: status
   type: string
   description: Status of the process execution.
-- name: status
-  type: string
-  description: Status of the process execution.,
 dependencies:
 - name: os
   type: module
