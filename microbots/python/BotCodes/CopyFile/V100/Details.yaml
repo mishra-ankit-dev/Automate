@@ -1,0 +1,32 @@
+name: CopyFile
+technology: python
+description: Copies a file from source to target folder
+version: 1.0.0
+developers: []
+added_by: 1
+unique_full_name: CopyFile__V1_0_0
+inputs:
+- name: sourceFilePath
+  type: string
+  default_value: NA
+  description: Path of the source file
+- name: targetFolderPath
+  type: string
+  default_value: NA
+  description: Path of the target folder
+outputs:
+- name: status
+  type: string
+  description: Status of the process execution
+dependencies:
+- name: os
+  type: module
+  description: Package to interact with system OS
+authors:
+- name: Ankit Mishra
+  email: amishm766@gmail.com
+  phone: '9713490290'
+errors:
+- message: FILE_NOT_FOUND
+  code: X000000000
+  description: Source file is not found
