@@ -1,0 +1,23 @@
+name: ConvertExcelToWord
+description: Converts an excel file to Word
+category: FILE
+version: 1.0.0
+inputs:
+- name: excelPath
+  type: string
+  default_value: NA
+  description: File of the excel path
+outputs:
+- name: docxPath
+  type: string
+  description: output file path
+dependencies:
+- name: os
+  type: string
+  description: os package
+authors:
+- name: Ankit
+  email: mishra.ankit@bcg.com
+  phone: '9713490290'
+errors: []
+added_by: 1
